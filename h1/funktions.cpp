@@ -12,7 +12,7 @@ void calcDiv(int a, int b)
 
     if (b == 0)
     {
-        std::cout << "Jakaja ei saa olla nolla!";
+        std::cout << "Jakaja ei saa olla nolla!"<<std::endl;
     }
     else
     {

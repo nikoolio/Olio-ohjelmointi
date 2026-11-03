@@ -31,7 +31,7 @@ int main()
     }
     catch(runtime_error& error)
     {
-        cout << "Virhe: " << error.what()<<endl;
+        cout << "retDiv Virhe: " << error.what()<<endl;
     }
 
     return 0;
