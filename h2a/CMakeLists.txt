@@ -8,8 +8,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 add_executable(h2a main.cpp
     README.md
     Car.h
-    Rectangle.h
-    Student.h)
+
+
+    car.h car.cpp
+    rectangle.h rectangle.cpp
+    student.h student.cpp)
 
 include(GNUInstallDirs)
 install(TARGETS h2a
