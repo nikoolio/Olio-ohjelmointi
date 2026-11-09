@@ -110,6 +110,8 @@ Käytä tässä harjoituksessa hyväksesi Qt-Creatorin Refactor -toimintoa. Kun 
     - int getStudentNumber(): palauttaa opiskelijanumeron(merkkimuotoinen tunniste).
     - double getAverage(): palauttaa opiskelijan keskiarvon.
 
+**UML-kaavio**
+
 ```mermaid
 classDiagram
     class Student {

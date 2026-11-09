@@ -1,8 +1,11 @@
 #include <iostream>
+#include <memory>
 #include "car.h"
 #include "rectangle.h"
+#include "student.h"
 
-using namespace std;
+using std::cout;
+using std::endl;
 
 int main()
 {
@@ -27,8 +30,14 @@ int main()
     myRect=nullptr;
 
     cout << endl;
-    cout << "Luodaan smart pointerina Student-luokan olio, asetetaan arvot settereilla ja tulostetaan gettereilla" << endl;
-
+    cout << "Luodaan smart pointerina Student-luokan olio myStudent, asetetaan arvot settereilla ja tulostetaan gettereilla" << endl;
+    std::unique_ptr<Student> myStudent = std::make_unique<Student>();
+    myStudent->setStudentNumber(12345);
+    myStudent->setAverage(4.78);
+    myStudent->setName("Mauri Moilanen");
+    cout << "Opiskelijanumero: " << myStudent->getStudentNumber() << endl;
+    cout << "Nimi: " << myStudent->getName() << endl;
+    cout << "Keskiarvo: " << myStudent->getAverage() << endl;
 
     return 0;
 }
