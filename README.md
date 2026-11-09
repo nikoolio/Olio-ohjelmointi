@@ -1,10 +1,25 @@
 # Olio-ohjelmointi
 Olio-ohjelmoinnin kurssin suoritteet
-h1 sisältää c++-perusteiden tehtävän.
-h2a sisältää olio-ohjelmoinnin perusteita.
-h2b käsittelee oliolistoja
-h3 on tehtävä periytymisestä.
-h4 käsittelee kompositiota.
-h5 on tehtävä pointtereista ja referensseistä.
-h6 konsolin http
-h7 Qt-widget http
+
+## h1 
+C++-ohjelmnoinnin perusteet
+
+## h2
+h2a - olio-ohjelmoinnin perusteet
+
+h2b - oliolistat
+
+## h3
+Periytyminen
+
+## h4 
+Koosteet
+
+## h5
+Osoittimet ja muistinhallinta
+
+## h6 
+Qt-konsolisovellus
+
+# h7 
+Qt-widget-sovellus ja luokkakirjasto
