@@ -25,15 +25,23 @@ Lisää projektiin luokka nimeltä Car. Tällä luokalla tulisi olla seuraavat j
 - setModel(string): asettaa auton mallin.
 - setYearModel(int): asettaa auton valmistusvuoden.
 
+\
+**UML-kaavio**
+
 ```mermaid
 classDiagram
-    class Student {
-        -string firstname
-        +setFirstname(string fname) void
-        +getFirstname() string
+    class Car {
+        -string brand
+        -string model
+        -int yearModel
+        +setBrand(string) void
+        +setModel(string) void
+        +setYearModel(int) void
+        +printData() void
     }
-````
+```
 
+\
 **Pääohjelmassa:**
 
 Luo Car-olio pinomuistiin ja aseta sille merkki, malli ja vuosi.
@@ -55,6 +63,21 @@ Lisää projektiin luokka nimeltä nimeltä Rectangle. Tällä luokalla tulisi o
 - getCircum(): laskee ja palauttaa suorakulmion ympärysmitan kaavalla 2 * (width + height).
 - setWidth(double): asettaa suorakulmion leveyden.
 - setHeight(double): asettaa suorakulmion korkeuden.
+
+\
+**UML-kaavio**
+
+```mermaid
+classDiagram
+    class Rectangle {
+        -double width
+        -double height
+        +getArea() double
+        +getCircum() double
+        +setWidth(double) void
+        +setHeight(double) void
+    }
+```
 
 \
 **Pääohjelmassa:**
@@ -86,6 +109,21 @@ Käytä tässä harjoituksessa hyväksesi Qt-Creatorin Refactor -toimintoa. Kun 
     - string getName(): palauttaa opiskelijan nimen.
     - int getStudentNumber(): palauttaa opiskelijanumeron(merkkimuotoinen tunniste).
     - double getAverage(): palauttaa opiskelijan keskiarvon.
+
+```mermaid
+classDiagram
+    class Student {
+        -string name
+        -int studentNumber
+        -double average
+        +setName(string) void
+        +setStudentNumber(int) void
+        +setAverage(double) void
+        +getName() string
+        +getStudentId() int
+        +getAverage() double
+    }
+```
 
 \
 **Pääohjelmassa:**
