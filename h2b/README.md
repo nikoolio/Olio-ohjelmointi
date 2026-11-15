@@ -18,11 +18,7 @@ Lisää projektiin luokka nimeltä Car. Tällä luokalla tulisi olla seuraavat j
    
    
 **Pääohjelmassa:**
-
 Luo vektori nimeltään carList. (Luo lista pinoon. Et siis tarvitse smart pointteria.)
-
 Lisää kolme Car-luokan oliota listaan (keksi itse merkit, mallit ja vuosimallit)
-
 Tulosta listan toisen alkion tiedot.
-
 Tulosta kaikkien autojen tiedot käyttämällä for-silmukkaa.
