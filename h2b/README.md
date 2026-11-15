@@ -1,51 +1,28 @@
-# First Level Heading
+# Harjoitus2b - Oliolista
 
-Paragraph.
+Luo C++-projekti nimeltään h2b.
 
-## Second Level Heading
+Lisää projektiin luokka nimeltä Car. Tällä luokalla tulisi olla seuraavat jäsenmuuttujat ja metodit:
+   
+   
+**Jäsenmuuttujat:**
 
-Paragraph.
+- brand: merkkijono, joka sisältää auton merkin.
+- model: merkkijono, joka sisältää auton mallin.
+- yearModel: kokonaisluku, joka sisältää auton valmistusvuoden.
+   
+   
+**Metodit:**
+- printData(): tulostaa auton merkin, mallin ja valmistusvuoden.
+- Car(string, string, int): konstruktori, jolla voidaan alustaa kaikki jäsenmuuttujat
+   
+   
+**Pääohjelmassa:**
 
-- bullet
-+ other bullet
-* another bullet
-    * child bullet
+Luo vektori nimeltään carList. (Luo lista pinoon. Et siis tarvitse smart pointteria.)
 
-1. ordered
-2. next ordered
+Lisää kolme Car-luokan oliota listaan (keksi itse merkit, mallit ja vuosimallit)
 
-### Third Level Heading
+Tulosta listan toisen alkion tiedot.
 
-Some *italic* and **bold** text and `inline code`.
-
-An empty line starts a new paragraph.
-
-Use two spaces at the end  
-to force a line break.
-
-A horizontal ruler follows:
-
----
-
-Add links inline like [this link to the Qt homepage](https://www.qt.io),
-or with a reference like [this other link to the Qt homepage][1].
-
-    Add code blocks with
-    four spaces at the front.
-
-> A blockquote
-> starts with >
->
-> and has the same paragraph rules as normal text.
-
-First Level Heading in Alternate Style
-======================================
-
-Paragraph.
-
-Second Level Heading in Alternate Style
----------------------------------------
-
-Paragraph.
-
-[1]: https://www.qt.io
+Tulosta kaikkien autojen tiedot käyttämällä for-silmukkaa.
